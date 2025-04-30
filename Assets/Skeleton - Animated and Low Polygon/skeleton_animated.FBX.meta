@@ -4585,7 +4585,8 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
+  referencedClips:
+  - acbffb636a517f8419faf0c3ec6f8ab0
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -5328,7 +5329,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 0.01
-    rootMotionBoneName: 
+    rootMotionBoneName: Bip01_Pelvis
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 0
