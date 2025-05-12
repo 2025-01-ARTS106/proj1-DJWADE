@@ -8,6 +8,9 @@ public class DoorScript : MonoBehaviour
     public GameObject hand;
     public GameObject keyistrue;
     public GameObject noEntry;
+    public GameObject PartyBlock;
+    public GameObject partyMusic;
+    public GameObject crows;
     public bool isplayer;
     Animator animator;
 
@@ -47,6 +50,9 @@ public class DoorScript : MonoBehaviour
                 {
                     hand.SetActive(false);
                     animator.enabled = true;
+                    PartyBlock.SetActive(false);
+                    partyMusic.SetActive(true);
+                    crows.SetActive(false);
                 }
             }
         }
@@ -58,6 +64,7 @@ public class DoorScript : MonoBehaviour
                 {
                     hand.SetActive(false);
                     noEntry.SetActive(true);
+                   
                 }
             }
         }
